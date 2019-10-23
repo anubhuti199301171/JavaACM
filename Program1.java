@@ -7,6 +7,11 @@ class Program1
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Hey! buddy enter a number =");
 		int a=sc.nextInt();
-		System.out.println("so, the number you gave me was "+a);
+		if(a%2==0)
+		{ System.out.println("even number");
+		}
+		else
+		{ System.out.println("odd number");
+		}
 	}
 }
