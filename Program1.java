@@ -7,6 +7,12 @@ class Program1
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Gimme a number");
 		int i=sc.nextInt();
-		System.out.println("Bruh the number you gave me was "+i);
+		if(i%2==0)
+		{System.out.println("Even number");
+		}
+		else
+		{System.out.println("Odd number");
+		}
+		
 	}
 }
