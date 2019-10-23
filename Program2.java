@@ -6,7 +6,8 @@ class Program2
 	{
 		int n=3;
 		double n1=3;
-		System.out.println(n);
-    System.out.println(n1);
+		System.out.println( n);
+    		System.out.println(n1);
+		System.out.println("Now you got the difference between double and int");
 	}
 }
