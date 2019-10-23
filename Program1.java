@@ -7,6 +7,6 @@ class Program1
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Hey! buddy enter a number =");
 		int a=sc.nextInt();
-		System.out.println("Bruh the number you gave me was "+a);
+		System.out.println("so, the number you gave me was "+a);
 	}
 }
